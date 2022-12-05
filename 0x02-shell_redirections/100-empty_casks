@@ -1,2 +1,2 @@
 #!/bin/bash
-find ~/ls -al -empty
+find ./ -type 'f,d' -not -empty | wc -l
